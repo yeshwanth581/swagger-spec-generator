@@ -1,0 +1,73 @@
+.App {
+	font-family: sans-serif;
+}
+nav {
+	box-shadow: 0 10px 15px -8px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #e9ecef;
+	font-size: 14px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	background-color: #e9ecef;
+	border-radius: 10px;
+	color: #343a40;
+}
+.container {
+	padding-top: 1em;
+	color: #062c42e3;
+}
+
+.container .block {
+	margin-top: 10px;
+}
+
+.container label {
+	display: inline-block;
+	text-align: left;
+	width: 25%;
+	font-weight: bold;
+}
+
+.container input {
+	text-align: left;
+	height: 2.5rem;
+	width: 70% !important;
+	display: inline !important;
+	border: 2px solid #062c42e3 !important;
+	font-size: 14px;
+	font-weight: bold;
+}
+.container input:focus {
+	width: 70% !important;
+	display: inline !important;
+}
+
+.container .dropdownMenu {
+	font-size: 14px;
+	font-weight: bold;
+	border: 2px solid #062c42e3;
+}
+
+.container .dropdownMenuItem {
+	font-size: 12px;
+	font-weight: bold;
+	color: #062c42e3;
+}
+
+.container .block .addParam {
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.container .block .addParam:hover {
+	color: red;
+}
+
+.container .removePathParam {
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
